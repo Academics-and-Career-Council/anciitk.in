@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Api for adding Data</title>
+
+    <!-- Font Icon -->
+    <link rel="stylesheet" href="fonts/material-icon/css/material-design-iconic-font.min.css">
+
+    <!-- Main css -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="main">
+
+        <div class="container">
+            <div class="signup-content">
+               
+                    <h2>Academics and Career Council , IITK </h2>
+                    <p class="desc"> UG Wings Portal <span>Add data to the Portal</span></p>
+                    <div class="form-group">
+                        <input type="text" class="form-input" name="name" id="name"
+                            placeholder="Enter the title of the Data" />
+                    </div>
+                    <br/><br/>
+                    <label for="c1">Add data to existing course(P.S.-Beware of the case of letters)</label>
+                    <input type="radio" id="exist" name="c1" value="exist" onclick="f1(this.id)" class="form-input">
+                    <br/>
+                    <label for="c2">Create a new Course</label>
+                    <input type="radio" id="new" name="c1" value="new" onclick="f1(this.id)" class="form-input">
+                   <br/><br/>
+                   <div class="form-group">
+                    <input type="text" class="form-input" name="desp" id="desp" placeholder="     Enter Course Description" />
+                </div>
+                    <div class="form-group">
+                        <input type="text" class="form-input" name="link1" id="l1" placeholder="    Enter the First link" />
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-input" name="link2" id="l2" placeholder="    Enter the Second link" />                    
+                    </div>  
+                    <div class="form-group">
+                        <input type="text" class="form-input" name="link3" id="l3" placeholder="    Enter the Third link" />                    
+                    </div>   
+                    <div class="form-group">
+                        <input type="text" class="form-input" name="link4" id="l4" placeholder="    Enter the Fourth link" />                    
+                    </div>   
+                    <div class="form-group">
+                        <input type="text" class="form-input" name="link4" id="l5" placeholder="    Enter the Fifth link" />                    
+                    </div>                  
+                    <div class="form-group">
+                        <button class="form-submit submit" onclick="myFunction()">Add Data</button>
+                    </div>
+               
+            </div>
+        </div>
+
+    </div>
+
+    <!-- JS -->
+    <script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-firestore.js"></script>
+    <script src="./mn.js"></script>
+   
+</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+
+</html>
