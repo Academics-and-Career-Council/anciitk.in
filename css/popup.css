@@ -54,7 +54,7 @@
 
 /*.popup h2 { margin-top: 0; color: #333; font-family: Tahoma, Arial, sans-serif; }*/
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 1080px) {
   .popup {
     width: 60%;
   }
