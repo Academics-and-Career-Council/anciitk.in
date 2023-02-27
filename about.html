@@ -10,6 +10,7 @@
         font-size: 16px;
         border: none;
         cursor: pointer;
+        width: 300px;
       }
       
       .dropdown {
@@ -41,6 +42,49 @@
       }
       
       .dropdown:hover .dropbtn {
+        background-color: rgb(26, 71, 133);
+      }
+
+
+      .dropbtn2 {
+        background-color: #357ddb;
+        color: white;
+        padding: 16px;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+        width: 300px;
+      }
+      
+      .dropdown2 {
+        position: relative;
+        display: inline-block;
+      }
+      
+      .dropdown-content2 {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+        left: 35px;
+      }
+      
+      .dropdown-content2 a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+      }
+      
+      .dropdown-content2 a:hover {background-color: #f1f1f1}
+      
+      .dropdown2:hover .dropdown-content2 {
+        display: block;
+      }
+      
+      .dropdown2:hover .dropbtn2 {
         background-color: rgb(26, 71, 133);
       }
       </style>
@@ -163,6 +207,18 @@
                     <a href="https://anciitk.nyc3.digitaloceanspaces.com/First-year-courses/PHY114.pdf"  target="_blank" rel="noopener noreferrer">PHY114</a>
                     <a href="https://anciitk.nyc3.digitaloceanspaces.com/First-year-courses/PHY115.pdf"  target="_blank" rel="noopener noreferrer">PHY115</a>
                     <a href="https://anciitk.nyc3.digitaloceanspaces.com/First-year-courses/CHM112%20&%20CHM113.pdf"  target="_blank" rel="noopener noreferrer">CHM112 & 113</a>
+                  </div>
+
+                  
+
+
+                </div>
+
+                <div class="dropdown2">
+                  <button class="dropbtn2">Department Guides</button>
+                  <div class="dropdown-content2">
+                  <a href="https://s3.anciitk.in/resources-portal%2Fug-acads%2FEE%20Department%20Guide.pdf"  target="_blank" rel="noopener noreferrer">Electrical Engineering</a>
+
                   </div>
                 </div>
               </div>
