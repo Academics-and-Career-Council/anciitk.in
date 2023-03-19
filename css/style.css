@@ -1727,6 +1727,26 @@ h2 {
   .main-menu li.active a {
     color: #fff;
   }
+
+  .dropbtn {
+    color: #000;
+  }
+  .dropdown-content {
+    display: block;
+    background-color: #fff;
+    position: relative;
+  }
+  .dropdown-content a {
+    display: block;
+    background-color: #fff;
+  }
+  .dropdown-content a:hover {background-color: #dedede;}
+
+  .dropdown:hover .dropdown-content {display: flex}
+
+  .dropdown:hover .dropbtn {background-color: #dcdcdc; border-radius: 10px;}
+
+
   .header-btns {
     position: relative;
     display: block;
